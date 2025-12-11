@@ -1,47 +1,64 @@
-/* --- CSS complet révisé pour ton site --- */
-
+/* --- General Styles --- */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #333;
 }
 
 /* Header */
 header {
   display: flex;
   align-items: center;
-  padding: 15px 30px;
-  background-color: #f5f5f5;
-  border-bottom: 1px solid #ddd;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background-color: #004080;
+  color: #fff;
   position: sticky;
   top: 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.logo {
-  font-size: 26px; /* plus grande */
+header .logo {
+  font-size: 28px;
   font-weight: bold;
-  flex: 1; /* pousse le logo à gauche */
 }
 
 nav {
   flex: 2;
-  text-align: center; /* centre les onglets */
+  text-align: center;
 }
 
 nav a {
   margin: 0 25px;
+  color: #fff;
   text-decoration: none;
-  color: #333;
-  font-size: 18px; /* police plus grande */
+  font-size: 18px;
+  font-weight: 500;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
-/* Container */
+/* Main container */
 .container {
-  max-width: 800px;
-  margin: 40px auto;
+  max-width: 900px;
+  margin: 50px auto;
   padding: 20px;
-  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #004080;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  color: #666;
+  font-size: 14px;
 }
