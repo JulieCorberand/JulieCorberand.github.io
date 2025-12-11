@@ -7,11 +7,10 @@ body {
   color: #333;
 }
 
-/* Header */
 header {
   display: flex;
+  justify-content: space-between; /* logo à gauche, menu à droite */
   align-items: center;
-  justify-content: space-between;
   padding: 15px 40px;
   background-color: #004080;
   color: #fff;
@@ -20,20 +19,20 @@ header {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-header .logo {
+.logo {
   font-size: 28px;
   font-weight: bold;
 }
 
+/* Menu aligné à droite */
 nav {
-  flex: 2;
-  text-align: center;
+  display: flex;
+  gap: 30px; /* espace entre les onglets */
 }
 
 nav a {
-  margin: 0 25px;
-  color: #fff;
   text-decoration: none;
+  color: #fff;
   font-size: 18px;
   font-weight: 500;
 }
