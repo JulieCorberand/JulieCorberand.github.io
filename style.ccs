@@ -6,42 +6,37 @@ body {
   color: #111;
 }
 
-/* HEADER / NAVBAR */
+/* Style général de l'en-tête */
 .header {
-  width: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 50px;
-  background-color: #ffffff;
-  border-bottom: 1px solid #e5e5e5;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+  align-items: center;      /* centre verticalement */
+  justify-content: space-between; /* espace entre logo et nav */
+  padding: 10px 20px;
+  background-color: #f8f8f8; /* couleur de fond (optionnel) */
 }
 
+/* Logo à gauche */
 .logo {
-  font-size: 22px;
-  font-weight: 600;
-  color: #111;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 
+/* Navigation centrée horizontalement */
 .nav {
   display: flex;
-  gap: 30px; /* distance entre les onglets */
+  gap: 20px; /* espace entre les onglets */
+  margin: 0 auto;
 }
 
 .nav a {
   text-decoration: none;
   color: #333;
-  font-size: 16px;
   font-weight: 500;
 }
 
 .nav a:hover {
-  color: #00847d;
+  color: #007bff; /* couleur au survol */
 }
-
 
 /* HERO SECTION */
 .hero {
