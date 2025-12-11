@@ -6,32 +6,42 @@ body {
   color: #111;
 }
 
-/* HEADER */
+/* HEADER / NAVBAR */
 .header {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 60px;
-  background: transparent;
+  padding: 20px 50px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
 
 .logo {
   font-size: 22px;
   font-weight: 600;
+  color: #111;
+}
+
+.nav {
+  display: flex;
+  gap: 30px; /* distance entre les onglets */
 }
 
 .nav a {
-  margin-left: 30px;
   text-decoration: none;
   color: #333;
   font-size: 16px;
   font-weight: 500;
 }
+
 .nav a:hover {
   color: #00847d;
 }
+
 
 /* HERO SECTION */
 .hero {
