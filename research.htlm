@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research - Julie Corberand</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">Julie Corberand</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="talks.html">Talks</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Research</h1>
+
+    <h2>Thesis</h2>
+    <p><strong>Decarbonizing Electricity Generation Mix Considering Geostrategic Shocks: The Case of India</strong></p>
+    <p>Résumé rapide de ton sujet de thèse ici...</p>
+
+    <h2>Working Papers</h2>
+    <ul>
+      <li>WP 1 — titre...</li>
+      <li>WP 2 — titre...</li>
+    </ul>
+
+    <h2>In Progress</h2>
+    <ul>
+      <li>Projet 1...</li>
+      <li>Projet 2...</li>
+    </ul>
+
+  </div>
+</body>
+</html>
