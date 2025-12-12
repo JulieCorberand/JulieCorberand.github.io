@@ -22,7 +22,7 @@ header {
 .logo a {
   text-decoration: none;  /* supprime le soulignement */
   font-size: 40px;
-  color: #fff;            /* même couleur que le header */
+  color: #808080;            /* même couleur que le header */
 }
 
 .logo a:hover {
