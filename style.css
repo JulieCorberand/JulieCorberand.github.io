@@ -12,8 +12,8 @@ header {
   justify-content: space-between; /* logo à gauche, nav à droite */
   align-items: center;             /* aligne verticalement */
   padding: 15px 40px;
-  background-color: #004080;
-  color: #fff;
+  background-color: #f0f8ff;
+  color: 	#f5f5dc;
   position: sticky;
   top: 0;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -21,6 +21,7 @@ header {
 
 .logo a {
   text-decoration: none;  /* supprime le soulignement */
+  font-size: 40px;
   color: #fff;            /* même couleur que le header */
 }
 
