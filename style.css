@@ -67,3 +67,12 @@ footer {
   color: #666;
   font-size: 14px;
 }
+
+
+body.home {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
